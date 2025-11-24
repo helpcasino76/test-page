@@ -400,7 +400,7 @@
             }
             
             grid.innerHTML = pageProducts.map(product => `
-                <a href="${product.link}" class="product-card">
+                <a href="${product.link}" target="_parent" class="product-card">
                     <div class="rating-badge">
                         <span class="rating-number">${product.rating}</span>
                         <span class="rating-total">/10</span>
